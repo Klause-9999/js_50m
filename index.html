@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+
+<!-- Example 51: Adding Two Numbers -->
+<h2>Example 51: Adding Two Numbers</h2>
+<button onclick="addNumbers()">Add Numbers</button>
+<p id="addNumbersResult"></p>
+
+<!-- Example 52: Subtracting Two Numbers -->
+<h2>Example 52: Subtracting Two Numbers</h2>
+<button onclick="subtractNumbers()">Subtract Numbers</button>
+<p id="subtractNumbersResult"></p>
+
+<!-- Example 53: Multiplying Two Numbers -->
+<h2>Example 53: Multiplying Two Numbers</h2>
+<button onclick="multiplyNumbers()">Multiply Numbers</button>
+<p id="multiplyNumbersResult"></p>
+
+<!-- Example 54: Dividing Two Numbers -->
+<h2>Example 54: Dividing Two Numbers</h2>
+<button onclick="divideNumbers()">Divide Numbers</button>
+<p id="divideNumbersResult"></p>
+
+<!-- Example 55: Finding Remainder -->
+<h2>Example 55: Finding Remainder</h2>
+<button onclick="findRemainder()">Find Remainder</button>
+<p id="findRemainderResult"></p>
+
+<!-- Example 56: Calculating Power -->
+<h2>Example 56: Calculating Power</h2>
+<button onclick="calculatePower()">Calculate Power</button>
+<p id="calculatePowerResult"></p>
+
+<!-- Example 57: Calculating Square Root -->
+<h2>Example 57: Calculating Square Root</h2>
+<button onclick="calculateSquareRoot()">Calculate Square Root</button>
+<p id="calculateSquareRootResult"></p>
+
+<!-- Example 58: Generating a Random Number -->
+<h2>Example 58: Generating a Random Number</h2>
+<button onclick="generateRandomNumber()">Generate Random Number</button>
+<p id="randomNumberResult"></p>
+
+<!-- Example 59: Checking Even or Odd -->
+<h2>Example 59: Checking Even or Odd</h2>
+<button onclick="checkEvenOdd()">Check Even or Odd</button>
+<p id="evenOddResult"></p>
+
+<!-- Example 60: Using Math.PI -->
+<h2>Example 60: Using Math.PI</h2>
+<button onclick="useMathPI()">Use Math.PI</button>
+<p id="mathPIResult"></p>
+
+<!-- Example 61: Using Math.floor -->
+<h2>Example 61: Using Math.floor</h2>
+<button onclick="useMathFloor()">Use Math.floor</button>
+<p id="mathFloorResult"></p>
+
+<!-- Example 62: Using Math.ceil -->
+<h2>Example 62: Using Math.ceil</h2>
+<button onclick="useMathCeil()">Use Math.ceil</button>
+<p id="mathCeilResult"></p>
+
+<!-- Example 63: Using Math.round -->
+<h2>Example 63: Using Math.round</h2>
+<button onclick="useMathRound()">Use Math.round</button>
+<p id="mathRoundResult"></p>
+
+<!-- Example 64: Finding Maximum Number -->
+<h2>Example 64: Finding Maximum Number</h2>
+<button onclick="findMax()">Find Max</button>
+<p id="maxResult"></p>
+
+<!-- Example 65: Finding Minimum Number -->
+<h2>Example 65: Finding Minimum Number</h2>
+<button onclick="findMin()">Find Min</button>
+<p id="minResult"></p>
+
+<!-- Example 66: Converting String to Number -->
+<h2>Example 66: Converting String to Number</h2>
+<button onclick="convertStringToNumber()">Convert String to Number</button>
+<p id="stringToNumberResult"></p>
+
+<!-- Example 67: Converting Number to String -->
+<h2>Example 67: Converting Number to String</h2>
+<button onclick="convertNumberToString()">Convert Number to String</button>
+<p id="numberToStringResult"></p>
+
+<!-- Example 68: String Length -->
+<h2>Example 68: String Length</h2>
+<button onclick="stringLength()">String Length</button>
+<p id="stringLengthResult"></p>
+
+<!-- Example 69: String Index Of -->
+<h2>Example 69: String Index Of</h2>
+<button onclick="stringIndexOf()">String Index Of</button>
+<p id="stringIndexOfResult"></p>
+
+<!-- Example 70: String Substring -->
+<h2>Example 70: String Substring</h2>
+<button onclick="stringSubstring()">String Substring</button>
+<p id="stringSubstringResult"></p>
+
+<!-- Example 71: Converting to Uppercase -->
+<h2>Example 71: Converting to Uppercase</h2>
+<button onclick="convertToUppercase()">Convert to Uppercase</button>
+<p id="uppercaseResult"></p>
+
+<!-- Example 72: Converting to Lowercase -->
+<h2>Example 72: Converting to Lowercase</h2>
+<button onclick="convertToLowercase()">Convert to Lowercase</button>
+<p id="lowercaseResult"></p>
+
+<!-- Example 73: Replacing String Content -->
+<h2>Example 73: Replacing String Content</h2>
+<button onclick="replaceStringContent()">Replace String Content</button>
+<p id="replaceStringContentResult"></p>
+
+<!-- Example 74: Splitting a String -->
+<h2>Example 74: Splitting a String</h2>
+<button onclick="splitString()">Split String</button>
+<p id="splitStringResult"></p>
+
+<!-- Example 75: Joining an Array -->
+<h2>Example 75: Joining an Array</h2>
+<button onclick="joinArray()">Join Array</button>
+<p id="joinArrayResult"></p>
+
+<!-- Example 76: Trimming a String -->
+<h2>Example 76: Trimming a String</h2>
+<button onclick="trimString()">Trim String</button>
+<p id="trimStringResult"></p>
+
+<!-- Example 77: Creating a Date Object -->
+<h2>Example 77: Creating a Date Object</h2>
+<button onclick="createDate()">Create Date</button>
+<p id="dateResult"></p>
+
+<!-- Example 78: Getting Current Date -->
+<h2>Example 78: Getting Current Date</h2>
+<button onclick="getCurrentDate()">Get Current Date</button>
+<p id="currentDateResult"></p>
+
+<!-- Example 79: Getting Day of the Week -->
+<h2>Example 79: Getting Day of the Week</h2>
+<button onclick="getDayOfWeek()">Get Day of the Week</button>
+<p id="dayOfWeekResult"></p>
+
+<!-- Example 80: Getting Month of the Year -->
+<h2>Example 80: Getting Month of the Year</h2>
+<button onclick="getMonthOfYear()">Get Month of the Year</button>
+<p id="monthOfYearResult"></p>
+
+<!-- Example 81: Getting Year -->
+<h2>Example 81: Getting Year</h2>
+<button onclick="getYear()">Get Year</button>
+<p id="yearResult"></p>
+
+<!-- Example 82: Getting Hours -->
+<h2>Example 82: Getting Hours</h2>
+<button onclick="getHours()">Get Hours</button>
+<p id="hoursResult"></p>
+
+<!-- Example 83: Getting Minutes -->
+<h2>Example 83: Getting Minutes</h2>
+<button onclick="getMinutes()">Get Minutes</button>
+<p id="minutesResult"></p>
+
+<!-- Example 84: Getting Seconds -->
+<h2>Example 84: Getting Seconds</h2>
+<button onclick="getSeconds()">Get Seconds</button>
+<p id="secondsResult"></p>
+
+<!-- Example 85: Setting Hours -->
+<h2>Example 85: Setting Hours</h2>
+<button onclick="setHours()">Set Hours</button>
+<p id="setHoursResult"></p>
+
+<!-- Example 86: Setting Minutes -->
+<h2>Example 86: Setting Minutes</h2>
+<button onclick="setMinutes()">Set Minutes</button>
+<p id="setMinutesResult"></p>
+
+<!-- Example 87: Setting Seconds -->
+<h2>Example 87: Setting Seconds</h2>
+<button onclick="setSeconds()">Set Seconds</button>
+<p id="setSecondsResult"></p>
+
+<!-- Example 88: Creating a Timer -->
+<h2>Example 88: Creating a Timer</h2>
+<button onclick="startTimer()">Start Timer</button>
+<p id="timerResult"></p>
+
+<!-- Example 89: Stopping a Timer -->
+<h2>Example 89: Stopping a Timer</h2>
+<button onclick="stopTimer()">Stop Timer</button>
+
+<!-- Example 90: Getting Element by Query Selector -->
+<h2>Example 90: Getting Element by Query Selector</h2>
+<button onclick="getElementByQuerySelector()">Get Element by Query Selector</button>
+<p id="querySelectorResult"></p>
+
+<!-- Example 91: Getting Elements by Query Selector All -->
+<h2>Example 91: Getting Elements by Query Selector All</h2>
+<button onclick="getElementsByQuerySelectorAll()">Get Elements by Query Selector All</button>
+<p id="querySelectorAllResult"></p>
+
+<!-- Example 92: Checking Checkbox Status -->
+<h2>Example 92: Checking Checkbox Status</h2>
+<input type="checkbox" id="checkbox">
+<button onclick="checkCheckboxStatus()">Check Checkbox Status</button>
+<p id="checkboxStatusResult"></p>
+
+<!-- Example 93: Enabling a Button -->
+<h2>Example 93: Enabling a Button</h2>
+<button id="enableButton" disabled>Button</button>
+<button onclick="enableButton()">Enable Button</button>
+
+<!-- Example 94: Disabling a Button -->
+<h2>Example 94: Disabling a Button</h2>
+<button id="disableButton">Button</button>
+<button onclick="disableButton()">Disable Button</button>
+
+<!-- Example 95: Changing Image Source on Hover -->
+<h2>Example 95: Changing Image Source on Hover</h2>
+<img id="hoverImage" src="image1.jpg" alt="Image" onmouseover="changeImageOnHover()" onmouseout="resetImage()">
+<p id="hoverImageResult"></p>
+
+<!-- Example 96: Playing Audio -->
+<h2>Example 96: Playing Audio</h2>
+<audio id="audio" src="audio.mp3"></audio>
+<button onclick="playAudio()">Play Audio</button>
+
+<!-- Example 97: Pausing Audio -->
+<h2>Example 97: Pausing Audio</h2>
+<audio id="audio2" src="audio.mp3"></audio>
+<button onclick="playAudio2()">Play Audio</button>
+<button onclick="pauseAudio2()">Pause Audio</button>
+
+<!-- Example 98: Creating an Iframe -->
+<h2>Example 98: Creating an Iframe</h2>
+<button onclick="createIframe()">Create Iframe</button>
+<p id="iframeResult"></p>
+
+<!-- Example 99: Changing Iframe Source -->
+<h2>Example 99: Changing Iframe Source</h2>
+<iframe id="iframe" src="about:blank"></iframe>
+<button onclick="changeIframeSource()">Change Iframe Source</button>
+
+<!-- Example 100: Removing Iframe -->
+<h2>Example 100: Removing Iframe</h2>
+<button onclick="removeIframe()">Remove Iframe</button>
+
+
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
